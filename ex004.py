@@ -1,3 +1,4 @@
+# Crie um programa que mostre todos os tipos de algo digitado.
 a = input('Digite algo:')
 print('O tipo primitivo desse valor é:', type(a))
 print('É alfabetico?', a.isalpha())

@@ -1,4 +1,3 @@
+# Crie um programa que leia um número e mostre seu antecessor e seu sucessor.
 n = int(input('Digite um número:'.strip()))
-a = n - 1
-s = n + 1
-print('Se o número escolhido foi {}, seu antecessor é {} e seu sucessor é {}'.format(n, a, s))
+print(f'Se o número escolhido foi {n}, seu antecessor é {(n-1)} e seu sucessor é {(n+1)}.')
