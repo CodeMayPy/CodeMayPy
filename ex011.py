@@ -1,3 +1,4 @@
+# Crie um programa que leia a altura, a largura e diga quanto será usado de tinta para pinta-lá em l.
 a = float(input('Digite a altura  em metros da parede que deseja pintar:'.strip()))
 l = float(input('Agora digite a largura em metros da mesma:'.strip()))
 area = a * l

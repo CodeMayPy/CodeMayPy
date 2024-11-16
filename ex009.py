@@ -1,3 +1,4 @@
+# Com o que você já aprendeu até agora crie a tabuada de um número inteiro digitado.
 n = int(input('Digite um valor:'.strip()))
 print('-=' * 20)
 print('Analisando o valor informado...')

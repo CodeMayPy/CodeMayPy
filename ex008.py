@@ -1,14 +1,9 @@
+# Crie um programa que leia um número em metros e de seu valor em Km, hm, dam, dm, cm e mm.
 m = int(input('Digite um valor em metros:'.strip()))
-km = m * 1000
-hm = m * 100
-dam = m * 10
-dm = m / 10
-cm = m / 100
-mm = m /1000
-print('''Se o valor é {}, convertendo ele:
-{} km,
-{} Hm,
-{} Dam,
-{} Dm,
-{:.2f} Cm,
-{:.3f} Mm.'''.format(m, km, hm, dam, dm, cm, mm))
+print(f'''Se o valor é {m}, convertendo ele:
+{m*1000} km,
+{m*100} Hm,
+{m*10} Dam,
+{m/10} Dm,
+{m/100} Cm,
+{m/1000} Mm.''')
