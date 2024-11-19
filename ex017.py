@@ -1,4 +1,5 @@
-# Crie um programa que encontre a hipotenusa
+# Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo. Calcule e
+# mostre o comprimento da hipotenusa.
 import math
 co = float(input('Digite o valor do cateto oposto do triângulo:'))
 ca = float(input('Digite o valor do cateto adjacente do triângulo:'))

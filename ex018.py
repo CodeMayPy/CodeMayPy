@@ -1,4 +1,4 @@
-# crie um programa que calcule o seno, cosseno e a tangente.
+# Faça um programa que leia o ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
 import math
 ang = float(input('Digite o valor de um ângulo qualquer:'))
 seno = math.sin(math.radians(ang))

@@ -1,3 +1,4 @@
+# Crie um programa que leia um número inteiro e diga se ele é par ou ímpar.
 num = int(input('Me diga um número qualquer:'))
 resultado = num % 2
 if resultado ==0:

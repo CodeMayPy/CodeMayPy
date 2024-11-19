@@ -1,4 +1,4 @@
-# Crie um programa que leia um número em metros e de seu valor em Km, hm, dam, dm, cm e mm.
+# Escreva um programa que leia um valor em metros e o exiba convertido em centímetro e milímetros.
 m = int(input('Digite um valor em metros:'.strip()))
 print(f'''Se o valor é {m}, convertendo ele:
 {m*1000} km,
