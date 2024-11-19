@@ -1,3 +1,4 @@
+# Crie um programa qu calcule o gasto do aluguel de um veiculo.
 km = int(input('Digite quantos Km você rodou com o carro:'.strip()))
 dia = int(input('Quantos dias você ficou com o carro:'))
 vd = dia * 60

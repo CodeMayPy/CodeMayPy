@@ -1,3 +1,4 @@
+# Crie um programa que calcule o desconto de um produto
 p = float(input('Digite o valor do produto em R$:'.strip()))
 print('...Calculando seu desconto...')
 d = p - (p * 0.15)

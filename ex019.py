@@ -1,3 +1,4 @@
+# crie um programa que escolha um aluno
 import random
 a1 = str(input('Nome do primeiro aluno:'))
 a2 = str(input('Nome do segundo aluno:'))
