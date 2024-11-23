@@ -1,5 +1,5 @@
 # Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
-n = int(input('Digite um valor:'.strip()))
+n = int(input('Digite um valor:'))
 print('-=' * 20)
 print('Analisando o valor informado...')
 print('-=' * 20)
