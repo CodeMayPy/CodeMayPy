@@ -1,4 +1,4 @@
-# Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
-n1 = float(input('Digite a primeira nota:'))
-n2 = float(input('Digite a segunda nota:'))
-print(f'Se sua primeia nota foi {n1} e sua segunda nota foi {n2}.\n Logo a sua média será {(n1+n2)/2}.')
+# Develop a program that reads a student's two grades, calculates and displays their average.
+first_note = float(input('Enter your first note:'))
+second_note = float(input('Enter your second note:'))
+print(f' If your first note is {first_note} and your second note is {second_note}.\n You avarege will be {(first_note+second_note)/2}.')

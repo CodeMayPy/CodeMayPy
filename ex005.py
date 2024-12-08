@@ -1,3 +1,3 @@
-# Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.
-n = int(input('Digite um número:'.))
-print(f'Se o número escolhido foi \033[35m{n}\033[m, seu antecessor é \033[31m{(n-1)}\033[m e seu sucessor é \033[32m{(n+1)}\033[m.')
+# Write a program that reads an integer and displays its successor and predecessor on the screen.
+number = int(input('Enter a number:'))
+print(f' If the number is \033[35m{number}\033[m,its predecessor is \033[31m{(number-1)}\033[m and his successor is \033[32m{(number+1)}\033[m.')

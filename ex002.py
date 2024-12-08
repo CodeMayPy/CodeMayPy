@@ -1,3 +1,3 @@
-# Crie um programa que pergunte o nome do usuário e escreva uma mensagem de boas vindas.
-nome = input('Digite seu nome:')
-print(f'Muito prazer em te conhecer, {nome}!')
+# Create a program that asks for the user's name and writes a welcome message.
+name = input('What is your name:')
+print(f'Nice meet you, {name}!')
