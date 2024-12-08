@@ -1,9 +1,9 @@
-# Escreva um programa que leia um valor em metros e o exiba convertido em centímetro e milímetros.
-m = int(input('Digite um valor em metros:'))
-print(f'''Se o valor é {m}, convertendo ele:
-{m/1000} km,
-{m/100} Hm,
-{m/10} Dam,
-{m*10} Dm,
-{m*100} Cm,
-{m*1000} Mm.''')
+# Write a program that reads a value in meters and displays it converted into centimeters and millimeters.
+meter = int(input('Enter a value in meters:'))
+print(f'''If this value is {meter}, converting it:
+{meter/1000} km,
+{meter/100} Hm,
+{meter/10} Dam,
+{meter*10} Dm,
+{meter*100} Cm,
+{meter*1000} Mm.''')

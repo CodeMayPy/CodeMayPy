@@ -1,5 +1,5 @@
-# Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
-# Considerando US$ 1,00 = R$5.45
-real = float(input('Quanto dinheiro você tem na sua carteira em R$:'))
+# Create a program that reads how much money a person has in their wallet and shows how many dollars they can buy.
+#  Considering US$1.00 = R$5.45
+real = float(input('How much many do you have in R$:'))
 dollar = real/5.45
-print('Logo se voc~e tem R${} você poderá comprar US${:.2f}.'.format(real, dollar))
+print('So if you have R${} you can buy US${:.2f}.'.format(real, dollar))
