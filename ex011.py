@@ -1,7 +1,7 @@
-# Faça um programa que leia a largura e a altura de uma parede em metros, calcule a quantidade de tinta necessária para
-# pintá-la, sabendo que cada litro de tinta pinta uma área de 2m².
-area_q = float(input('Digite a altura  em metros da parede que deseja pintar:'))
-largura = float(input('Agora digite a largura em metros da mesma:'))
-area = area_q * largura
-litros = area / 2
-print(f'Se você possui uma área de {area}m logo precisará de {litros} litros para pintá-la.')
+# Write a program that reads the width and height of a wall in meters, calculates the amount of paint needed to
+#  paint it, knowing that each liter of paint paints an area of 2m².
+area_q = float(input('Enter the height in meters of the wall you want to paint:'))
+width = float(input('Now enter the width in meters of the same:'))
+area = area_q * width
+liter = area / 2
+print(f'If you have an area of {area}m soon you will need {liter} liters to paint it.')
