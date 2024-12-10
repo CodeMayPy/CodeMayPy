@@ -1,3 +1,3 @@
-#Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome 'Santo'.
-cid  = str(input('Em que cidade você nasceu?')).strip()
-print(cid[:5].upper() == 'SANTO')
+# Create a program that reads the name of a city and says whether or not it starts with the name 'Saint'.
+city = str(input('What city were you born?')).strip()
+print(city[:5].upper() == 'SAINT')

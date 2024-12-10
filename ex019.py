@@ -1,10 +1,10 @@
-# Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o
-# nome dos alunos e escrevendo na tela o nome do escolhido.
+# A teacher wants to draw one of his four students to erase the board. Make a program that helps him, reading the
+# name of the students and writing the name of the chosen one on the screen.
 import random
-a1 = str(input('Nome do primeiro aluno:'))
-a2 = str(input('Nome do segundo aluno:'))
-a3 = str(input('Nome do terceiro aluno:'))
-a4 = str(input('Digite o nome do quarto aluno:'))
-lista = [a1, a2, a3, a4]
-escolhido = random.choice(lista)
-print('O aluno escolhido para apagar o quadro é {}.'.format(escolhido))
+name_one = str(input('First students name:'))
+name_two = str(input('Second students name:'))
+name_three = str(input('Third students name:'))
+name_four = str(input('Fourth students name:'))
+list = [name_one, name_two, name_three, name_four]
+chosen = random.choice(list)
+print(f'The student chosen to erase the board is {chosen}.')
