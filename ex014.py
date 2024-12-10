@@ -1,4 +1,4 @@
-#Escreva um programa que converta uma temperatura digitando em graus Celsius para graus Fahrenheit.
-celcius = int(input('Digite o valor da temperatura em graus Celcius:'))
-fahrenheit = ( celcius * 1.8) + 32
-print(f'Se a temperatura local é de {celcius}°C convertendo ficará {fahrenheit}°F.')
+# Write a program that converts a temperature entered in degrees Celsius to degrees Fahrenheit.
+celsius = int(input('Enter a temperature in Celsius:'))
+fahrenheit = ( celsius * 1.8) + 32
+print(f'If the temperature local is {celsius}°C converting it will be {fahrenheit}°F.')
