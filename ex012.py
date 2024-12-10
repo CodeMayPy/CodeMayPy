@@ -1,5 +1,5 @@
-#Faça um algoritmo que leia o preço de um produto e mostre o seu novo preço com 15% de desconto
-produto = float(input('Digite o valor do produto em R$:'))
-print('...Calculando seu desconto...')
-desconto = produto - (produto * 0.15)
-print('Seu produto de R${} com 15% de desconto ficará R${:.2f}'.format(produto, desconto))
+# Create an algorithm that reads the price of a product and shows its new price with a 15% discount
+product = float(input('Enter a price of a product R$:'))
+print('...Calculating the discount...')
+discount = product - (product * 0.15)
+print('Your product R${} with 15% of discount will be R${:.2f}'.format(product, discount))

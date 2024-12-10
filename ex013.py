@@ -1,5 +1,5 @@
-# Faça um programa que leia o salário de um funcionário e mostre seu novo salário com 15% de aumento.
-salario = float(input('Digite o valor do seu salário em R$:'))
-print('Calculando seu novo salário com aumento de 15%...')
-aumento = salario + (salario * 0.15)
-print(f'Seu novo salário será de R${aumento}.')
+# Make a program that reads an employee's salary and shows his new salary with a 15% increase.
+salary = float(input('Enter your salary in R$:'))
+print('Calculating you new salary with a 15% increase...')
+increase = salary + (salary * 0.15)
+print(f'Your new salary will be R${increase}.')
