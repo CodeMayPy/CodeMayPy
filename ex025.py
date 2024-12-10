@@ -1,3 +1,3 @@
-#Crie um programa que leia o nome de uma pessoa e diga se ela tem "Silva" no nome
-nome = str(input('Qual é o seu nome completo?'))
-print('Seu nome tem Silva? {}.'.format('silva' in nome.lower()))
+# Create a program that reads a person's name and tells if they have "Silva" in their name
+name = str(input('What your full name?'))
+print(F'Your name has Silva? {'silva' in name.lower()}.')
