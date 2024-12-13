@@ -1,8 +1,8 @@
-# Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80Km/h, mostre uma mensagem dizendo que ele
-# foi multado. A multa vai custar R$7,00 por cada Km acima do limite.
-velocidade = float(input('Digite a velocidade do seu carro:'))
-if velocidade > 80:
-    print('MULTADO! Você exedeu o limite permitido que é de 80km/h')
-    multa = (velocidade - 80) * 7
-    print('Você deverá pagar uma multa de R${}.'.format(multa))
-print('Tenha um bom dia! Dirija com segurança!')
+# Write a program that reads the speed of a car. If it exceeded 80km/h, show a message saying that it
+# was fined. The fine will cost R$7.00 for each km above the limit.
+speed = float(input('Enter the speed of your car:'))
+if speed > 80:
+    print('FINED!!!! You have exceeded the 80Km/h limit.')
+    fined = (speed - 80) * 7
+    print(f'You will need for a fine of R${fined}.')
+print(f'Have a nice day! Drive safely!')

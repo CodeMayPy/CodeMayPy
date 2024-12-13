@@ -1,9 +1,9 @@
-# Desenvolva um programa que pergunte a distância de uma viagem em km. Calcule o preço da passagem, cobrando R$0,50 por
-# km para viagens até 200km e R$0,45 para viagens mais longas.
-distancia = float(input('Qual a distância da sua viagem?'))
-print('Você está preste a começar uma viagem de {}km.'.format(distancia))
-if distancia <= 200:
-    preço = distancia * 0.50
+# Develop a program that asks the distance of a trip in km. Calculate the ticket price, charging R$0.50 per
+#  km for trips up to 200km and R$0.45 for longer trips.
+distance = float(input('What is the distance of your travel?'))
+print(f'You wil stard a travel of {distance}km.')
+if distance <= 200:
+    price = distance * 0.50
 else:
-    preço = distancia * 0.45
-print('E o preço da sua passagem será de R${:.2f}.'.format(preço))
+    price = distance * 0.45
+print(f'And the price of your ticket will be R${price}.')
