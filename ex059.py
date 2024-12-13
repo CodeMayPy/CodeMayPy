@@ -8,9 +8,8 @@
 
 first_value = int(input('Enter a number:'))
 second_value = int(input('Enter other number:'))
-option = 0
 
-while option != 5:
+while True:
     print('''Choose an option...
          [1] Add
          [2] Multiply
@@ -36,6 +35,7 @@ while option != 5:
         second_value = int(input('Enter other number:'))
     elif choice == 5:
          print('Finishing...')
+         break
     else:
         print('Invalid option. Try again.')
 print('End of program.')
