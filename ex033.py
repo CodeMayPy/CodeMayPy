@@ -1,16 +1,16 @@
-# Faça um programa que leia três números e mostre qual é o maior e qual é o menor.
-a = int(input('Digite o primeiro valor:'))
-b = int(input('Digite o segundo valor:'))
-c = int(input('Digite o terceiro valor:'))
-menor = a
-if b < a and b < c:
-    menor = b
-    if c < a  and c < b:
-        menor = c
-maior = a
-if b > a and b > c:
-    maior = b
-    if c > a and c > b:
-        maior = c
-print('O menor valor digitado foi {}.'.format(menor))
-print('O maior valor digitado foi {}.'.format(maior))
+# Write a program that reads three numbers and shows which is the largest and which is the smallest.
+first_value = int(input('Enter the first value:'))
+second_value = int(input('Enter the second value:'))
+third_value = int(input('Enter the tirth value:'))
+smallest = first_value
+if second_value < first_value and second_value < third_value:
+    smallest = second_value
+if third_value < first_value  and third_value < second_value:
+    smallest = third_value
+largest = first_value
+if second_value > first_value and second_value > third_value:
+    largest = second_value
+if third_value > first_value and third_value > second_value:
+    largest = third_value
+print(f'The smallest value is {smallest}.')
+print(f'The largest value is {largest}.')

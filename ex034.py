@@ -1,8 +1,8 @@
-# Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. Para salários
-# superiores a R$1.250,00 calcule um aumento de 10% para os inferiores ou iguais, o aumento é de 15%.
-salario = float(input('Qual é o seu salário em R$?'))
-if salario <= 1250:
-    novo = salario + (salario * 0.15)
+# Write a program that asks for an employee's salary and calculates the amount of his raise. For salaries
+# above R$1,250.00, calculate an increase of 10% for those below or equal, the increase is 15%
+salary = float(input('What is your salary in R$?'))
+if salary <= 1250:
+    new = salary + (salary * 0.15)
 else:
-    novo = salario + (salario * 0.10)
-print('Quem ganhava R${:.2f} passa a ganhar R${:.2f} agora.'.format(salario, novo))
+    new = salary + (salary * 0.10)
+print(f'Who won R${salary} starts to win R${new} now.')

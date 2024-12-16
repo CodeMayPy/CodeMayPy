@@ -1,12 +1,12 @@
-# Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um
-# triângulo.
+#  Develop a program that reads the length of three straight lines and tells the user whether or not they can form a
+# triangle.
 print('-=-' * 20)
-print('Analisador de triângulos...')
+print('               Triangle analyzer...')
 print('-=-' * 20)
-r1 =  float(input('Primeiro segmento:'))
-r2 = float(input('Segundo seguimento:'))
-r3 = float(input('Terceiro segmento:'))
-if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
-    print('Os segmentos acima PODEM formar um triângulo.')
+first_segment =  float(input('First segment:'))
+second_segment = float(input('Second segment:'))
+third_segment = float(input('Third segmant:'))
+if first_segment < second_segment + third_segment and second_segment < first_segment + third_segment and third_segment < first_segment + second_segment:
+    print('The segments above CAN form a triangle.')
 else:
-    print('Os seguimentos acima NÂO PODEM formar triângulo.')
+    print('The segments above CANNOT form a triangle.')
