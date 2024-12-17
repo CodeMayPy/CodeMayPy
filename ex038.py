@@ -1,11 +1,11 @@
-# Escreva um programa que leia dois números inteiros e compare-os. mostrando na tela uma mensagem:
-# – O primeiro valor é maior
-# – O segundo valor é maior
-# – Não existe valor maior, os dois são iguais
-n1 = int(input('Digite um número inteiro:'))
-n2 = int(input('Digite outro número inteiro:'))
-if n1 > n2:
-    print('O número {} é maior que o {}.'.format(n1, n2))
+# Write a program that reads two integers and compares them, displaying a message on the screen:
+# – The first value is greater
+# – The second value is greater
+# – There is no greater value, both are equal
+first_number = int(input('Enter an integer:'))
+second_number = int(input('Enter other integer:'))
+if first_number > second_number:
+    print(f'The number {first_number} is greater than {second_number}.')
 elif n1 < n2:
     print('O número {} é maior que o {}.'.format(n2, n1))
 else:
