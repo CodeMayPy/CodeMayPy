@@ -6,7 +6,7 @@ first_number = int(input('Enter an integer:'))
 second_number = int(input('Enter other integer:'))
 if first_number > second_number:
     print(f'The number {first_number} is greater than {second_number}.')
-elif n1 < n2:
-    print('O número {} é maior que o {}.'.format(n2, n1))
+elif first_number < second_number:
+    print(f'The number {second_number} is greater than {first_number}.')
 else:
-    print('Os dois números são iguais!')
+    print('The two numbers are the same!')

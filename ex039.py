@@ -1,17 +1,19 @@
-# Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com a sua idade, se ele ainda vai se
-# alistar ao serviço militar, se é a hora exata de se alistar ou se já passou do tempo do alistamento. Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
+# Write a program that reads the year of birth of a young person and informs, according to his age, whether he is
+# still going to enlist in the military service, whether it is the exact time to enlist or if it is past the
+# enlistment period. Your program should also show the time remaining or the time that has passed.
+
 from datetime import date
 from xml.sax.handler import property_interning_dict
 
-atual = date.today().year
-nasc = int(input('Digite o ano do seu nascimento:'))
-idade = atual - nasc
-print('Quem nasceu em {} tem {} anos.'.format(nasc, idade))
-if idade == 18:
-    print('Você deve se alistar IMEDIATAMENTE.')
-elif idade < 18:
-    saldo = 18 - idade
-    print('ainda faltam {} anos para o seu alistamento.'.format(saldo))
-elif idade > 18:
-    saldo = idade - 18
-    print('Você já deveria ter se alistado há {} anos.'.format(saldo))
+year = date.today().year
+birth = int(input('Enter your year of birth:'))
+age = year - birth
+print(f'Who was born in {birth} is {age} years old.')
+if age == 18:
+    print('You must enlist IMMEDIATELY!!')
+elif age < 18:
+    result = 18 - age
+    print(f'Still missing {result} years for your enlistment.')
+elif age > 18:
+    result = age - 18
+    print(f'You should have enlisted {result} years ago.')
