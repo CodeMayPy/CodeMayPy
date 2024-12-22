@@ -1,9 +1,9 @@
-#Faça um programa que calcule a soma entre todos os números que são múltiplos de três e que se encontram no
-# intervalo de 1 até 500.
+# Make a program that calculates the sum of all numbers that are multiples of three and that are in the
+# range from 1 to 500.
 soma = 0
-cont = 0
+counter = 0
 for c in range(1, 501, 2):
     if c % 3 == 0:
-        cont = cont + 1
+        counter = counter + 1
         soma = soma + c
-print('A soma de todos os {} valores solicitados é {}.'.format(cont, soma))
+print(f'The sum of all {counter} requested values is {soma}.')

@@ -1,8 +1,8 @@
-#Desenvolva um programa que leia o primeiro termo e a razão de uma PA. No final, mostre os 10 primeiros termos
-# dessa progressão.
-primeiro = int(input('Primeiro termo:'))
-razao = int(input('Razão:'))
-decimo = primeiro +(10-1) * razao
-for c in range(primeiro, decimo + razao, razao):
-    print('{}'.format(c), end=' -> ')
-print('Acabou')
+#Develop a program that reads the first term and the ratio of an AP. At the end, show the first 10 terms
+# of this progression.
+first = int(input('First term:'))
+ratio = int(input('Ratio:'))
+tenth = first +(10-1) * ratio
+for c in range(first,tenth + ratio, ratio):
+    print(f'{c}', end=' -> ')
+print('He finished')
