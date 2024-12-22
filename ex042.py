@@ -1,17 +1,17 @@
-# Refaça o DESAFIO 35 dos triângulos, acrescentando o recurso de mostrar que tipo de triângulo será formado:
-# – EQUILÁTERO: todos os lados iguais
-# – ISÓSCELES: dois lados iguais, um diferente
-# – ESCALENO: todos os lados diferentes
-r1 = float(input('Primeiro segmento:'))
-r2 = float(input('Segundo segmento:'))
-r3 = float(input('Terceiro seguimento:'))
-if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
-    print('Os seguimentos acima podem formar um triângulo!', end=' ')
-    if r1 == r2 == r3:
-        print('Equilatero!')
-    elif r1 != r2 != r3 != r1:
-        print('Escaleno.')
+# Redo triangle challenge 35, adding the feature of showing what type of triangle will be formed:
+# – EQUILATERAL: all sides equal
+# – ISOSCELES: two sides equal, one different
+# – SCALENE: all sides different
+first_segment = float(input('Enter thr first segment:'))
+second_segment = float(input('Enter the second segment:'))
+tirdh_segment = float(input('Enter the tirdh segment:'))
+if first_segment < second_segment + tirdh_segment and second_segment < first_segment + tirdh_segment and tirdh_segment < first_segment + second_segment:
+    print('The segments above CAN form a triangle!', end=' ')
+    if first_segment == second_segment == tirdh_segment:
+        print('Equilateral!')
+    elif first_segment != second_segment != tirdh_segment != first_segment:
+        print('Scalene!')
     else:
-        print('Isósceles.')
+        print('Isosceles.')
 else:
-    print('Os seguimentos não podem formar um triângulo.')
+    print('The segments above CAN NOT form a triangle!.')

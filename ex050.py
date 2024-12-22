@@ -1,10 +1,10 @@
-#Desenvolva um programa que leia seis números inteiros e mostre a soma apenas daqueles que forem pares. Se o valor
-# digitado for ímpar, desconsidere-o.
-soma = 0
-cont = 0
+#Develop a program that reads six integers and displays the sum of only those that are even. If the value
+# entered is odd, disregard it.
+sum_numbers = 0
+counter = 0
 for c in range (1, 7):
-    num = int(input('Digite o {} valor:'.format(c)))
-    if num % 2 == 0:
-        soma += num
-        cont += 1
-print("Você informou {} números pares a soma foi {}.".format(cont, soma))
+    numbers = int(input(f'Enter a {c} value:'))
+    if sum_numbers % 2 == 0:
+        sum_numbers += numbers
+        counter += 1
+print(f"You informed {counter} neven numbers the sum was {sum_numbers}.")
