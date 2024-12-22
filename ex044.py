@@ -1,26 +1,26 @@
-# Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e
-# condição de pagamento:     – à vista dinheiro/cheque: 10% de desconto
-#– à vista no cartão: 5% de desconto
-#– em até 2x no cartão: preço formal
-#– 3x ou mais no cartão: 20% de juros
-preco = float(input('Preço das compras: R$'))
-print(''' FORMAS DE PAGAMENTO:
-[ 1 ] à vista dinheiro/pix
-[ 2 ] à vista cartão
-[ 3 ] 2x no cartão
-[ 4 ] 3x ou mais no cartão''')
-opcao = int(input('Qual a sua opção?'))
-if opcao == 1:
-    total = preco - (preco * 0.10)
-elif opcao == 2:
-    total = preco - (preco * 0.05)
-elif preco == 3:
-    total = preco
-    parcela = total / 2
-    print('Sua compra será parcelada em 2x de R${:.2f} SEM JUROS.'.format(parcela))
-elif opcao == 4:
-    total = preco + (preco * 0.20)
-    totparc = int(input('Quantas parcelas?'))
-    parcela = total / totparc
-    print('Sua compra será parcelada em {}x de R${:.2f}.'.format(totparc, parcela))
-print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preco, total))
+# Develop a program that calculates the amount to be paid for a product, considering its normal price and
+# payment conditions: – cash/check: 10% discount
+#– cash on card: 5% discount
+#– up to 2x on card: formal price
+#– 3x or more on card: 20% interest
+price = float(input('Purchase price:'))
+print(''' PAYMENT METHODS:
+[ 1 ] cash/pix in cash
+[ 2 ] cash card
+[ 3 ] 2x on card
+[ 4 ] 3x or more on card''')
+option = int(input('What is your option?'))
+if option == 1:
+    total = price - (price * 0.10)
+elif option == 2:
+    total = price - (price * 0.05)
+elif price == 3:
+    total = price
+    installment = total / 2
+    print(f'Your purchase will be paid in 2 installments of U${installment:.2f}interest free.')
+elif option == 4:
+    total = price + (price * 0.20)
+    total_installment = int(input('How many installments?'))
+    installment = total / total_installment
+    print(f'Your purchase will be paid in installments {total_installment}x of U${installment:.2f}.')
+print(f'Your purchase of U${price:.2f} it will cost U${total:.2f}.')

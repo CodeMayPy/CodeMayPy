@@ -1,41 +1,42 @@
-#Crie um programa que faça o computador jogar Jokenpô com você.
+
+#Create a program that makes the computer play Jokenpô with you.
 from random import randint
-print('Vamos jogar pedra, papel ou tesoura:')
-itens= ('Pedra', 'Papel', 'Tesoura')
-computador = randint(0, 2)
+print("Let's play rock, paper, scissors:")
+items= ('Rock', 'Paper', 'Scissors')
+computer = randint(0, 2)
 print('''
-[ 0 ] PEDRA
-[ 1 ] PAPEL
-[ 2 ] TESOURA''')
-jogador = int(input('Qual é a sua jogada?'))
+[ 0 ] Rock
+[ 1 ] Paper
+[ 2 ] Scissors''')
+player = int(input("What's your move?"))
 print('-=-' * 11)
-print('Computador jogou {}.'.format(itens[computador]))
-print('Jogador jogou {}.'.format(itens[jogador]))
+print(f'Computer played {items[computer]}.')
+print(f'Player played {items[player]}.')
 print('-=-' * 11)
-if computador == 0:
-   if jogador == 0:
-      print('Empate')
-   elif jogador == 1:
-       print('Jogador vence!')
-   elif jogador ==2:
-        print('Computador vence!')
+if computer == 0:
+   if player == 0:
+      print('Draw')
+   elif player == 1:
+       print('Player win!')
+   elif player ==2:
+        print('Computer win!')
    else:
-       print('JOGADA INVALIDA!')
-elif computador == 1:
-    if jogador == 0:
-      print('Computador vence!')
-    elif jogador == 1:
-      print('Empate')
-    elif jogador == 2:
-      print('Jogador vence!')
+       print('Invalid move!')
+elif computer == 1:
+    if player == 0:
+      print('Computer win!')
+    elif player == 1:
+      print('Draw')
+    elif player == 2:
+      print('Player win!')
     else:
-        print('Jogada invalida!')
-elif computador == 2:
-    if jogador == 0:
-       print('Jogador vence!')
-    elif jogador == 1:
-         print('Computador vence!')
-    elif jogador == 2:
-         print('empate')
+        print('Invalid move!')
+elif computer == 2:
+    if player == 0:
+       print('Player win!')
+    elif player == 1:
+         print('Computer win!')
+    elif player == 2:
+         print('Draw')
     else:
-        print('Jogada invalida!')
+        print('Invalid move!')
