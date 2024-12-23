@@ -1,4 +1,4 @@
-#Develop a program that reads the first term and the ratio of an AP. At the end, show the first 10 terms
+#51-Develop a program that reads the first term and the ratio of an AP. At the end, show the first 10 terms
 # of this progression.
 first = int(input('First term:'))
 ratio = int(input('Ratio:'))

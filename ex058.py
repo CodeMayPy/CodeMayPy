@@ -1,4 +1,4 @@
-# Improve the challenge 28 game where the computer will “think” of a number between 0 and 10. But now the player will
+#58- Improve the challenge 28 game where the computer will “think” of a number between 0 and 10. But now the player will
 #try to guess until you get it right, showing at the end how many guesses it took to win.
 from random import randint
 computer = randint(0,10)

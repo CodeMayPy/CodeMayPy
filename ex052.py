@@ -1,5 +1,4 @@
-
-# Write a program that reads an integer and tells whether or not it is a prime number.
+#52- Write a program that reads an integer and tells whether or not it is a prime number.
 number = int(input('Enter a integer number:'))
 tot = 0
 for c in range(1, number, +1):

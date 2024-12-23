@@ -1,4 +1,4 @@
-# Create a program that reads any sentence and says if it is a palindrome, disregarding spaces. Examples of
+#53- Create a program that reads any sentence and says if it is a palindrome, disregarding spaces. Examples of
 # palindromes:
 # AFTER THE SOUP, THE BALCONY OF THE HOUSE, THE TOWER OF DEFEAT, THE WOLF LOVES THE CAKE, THEY WROTE DOWN THE DATE
 # OF THE MARATHON.
