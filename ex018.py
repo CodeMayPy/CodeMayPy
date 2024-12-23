@@ -1,4 +1,4 @@
-# Write a program that reads any angle and displays on the screen the value of the sine, cosine and tangent of that angle.
+#18- Write a program that reads any angle and displays on the screen the value of the sine, cosine and tangent of that angle.
 import math
 angle = float(input('Enter a value of an angle:'))
 sine = math.sin(math.radians(angle))

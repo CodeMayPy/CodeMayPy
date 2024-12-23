@@ -1,4 +1,4 @@
-# Write a program that reads the length of the opposite and adjacent sides of a right triangle. Calculate and
+#17- Write a program that reads the length of the opposite and adjacent sides of a right triangle. Calculate and
 # show the length of the hypotenuse.
 import math
 opposite_side = float(input('Enter the value of opposite side of triangle:'))

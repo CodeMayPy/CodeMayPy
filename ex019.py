@@ -1,4 +1,4 @@
-# A teacher wants to draw one of his four students to erase the board. Make a program that helps him, reading the
+#19- A teacher wants to draw one of his four students to erase the board. Make a program that helps him, reading the
 # name of the students and writing the name of the chosen one on the screen.
 import random
 name_one = str(input('First students name:'))

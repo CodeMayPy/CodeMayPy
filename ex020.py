@@ -1,4 +1,4 @@
-# The same teacher from challenge 19 wants to draw the order in which the students' work will be presented. Make a program that
+#20- The same teacher from challenge 19 wants to draw the order in which the students' work will be presented. Make a program that
 # read the names of the four students and show the order drawn.
 import random
 first_name = str(input('First students name:'.strip()))
