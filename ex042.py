@@ -1,4 +1,4 @@
-# Redo triangle challenge 35, adding the feature of showing what type of triangle will be formed:
+#42- Redo triangle challenge 35, adding the feature of showing what type of triangle will be formed:
 # – EQUILATERAL: all sides equal
 # – ISOSCELES: two sides equal, one different
 # – SCALENE: all sides different

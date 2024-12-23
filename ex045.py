@@ -1,5 +1,4 @@
-
-#Create a program that makes the computer play Jokenpô with you.
+#45-Create a program that makes the computer play Jokenpô with you.
 from random import randint
 print("Let's play rock, paper, scissors:")
 items= ('Rock', 'Paper', 'Scissors')
