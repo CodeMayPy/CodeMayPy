@@ -1,4 +1,4 @@
-#  Redo CHALLENGE 51, reading the first term and the reason of an AP, showing the first 10 terms of the progression
+#61-  Redo CHALLENGE 51, reading the first term and the reason of an AP, showing the first 10 terms of the progression
 #  using the while structure.
 print("Arithmetic progression generator")
 print("-=-" * 20)

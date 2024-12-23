@@ -1,4 +1,4 @@
-# Write a program that reads any number and displays its factorial.
+#60- Write a program that reads any number and displays its factorial.
 # just in four lines
 '''from math import factorial
 number = int(input('Enter a number:'))
