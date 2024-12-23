@@ -1,4 +1,4 @@
-#Create a program that reads a person's full name and displays:
+#22- Create a program that reads a person's full name and displays:
 # - The name in all upper and lower case letters.
 # - How many letters in total without considering spaces
 # - How many letters are in the first name.
