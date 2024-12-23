@@ -1,4 +1,4 @@
-# Create a program that reads two grades from a student and calculates their average, displaying a message at the end, according to the acquired media:
+#40- Create a program that reads two grades from a student and calculates their average, displaying a message at the end, according to the acquired media:
 # – Media below 5.0: FAILED
 # – AVERAGE BETWEEN 5.0 and 6.9: RECOVERED
 # – Media 7.0 or higher: PASSED

@@ -1,4 +1,4 @@
-# Write a program that reads the year of birth of a young person and informs, according to his age, whether he is
+#39- Write a program that reads the year of birth of a young person and informs, according to his age, whether he is
 # still going to enlist in the military service, whether it is the exact time to enlist or if it is past the
 # enlistment period. Your program should also show the time remaining or the time that has passed.
 from datetime import date
