@@ -1,4 +1,4 @@
-# Write a program that reads any integer and displays its multiplication table on the screen.
+#09- Write a program that reads any integer and displays its multiplication table on the screen.
 number = int(input('Enter a value:'))
 print('-=' * 20)
 print('Analyzing the reported value...')

@@ -1,4 +1,4 @@
-# Write a program that asks the number of km traveled by a rented car and the number of days for which
+#15- Write a program that asks the number of km traveled by a rented car and the number of days for which
 # it was rented. Calculate the price to pay, knowing that the car costs R$60 per day and R$0.15 per km driven.
 km = int(input(' Enter how many Km you have driven the car:'))
 day = int(input('How many days did you keep the car:'))

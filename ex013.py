@@ -1,4 +1,4 @@
-# Make a program that reads an employee's salary and shows his new salary with a 15% increase.
+#13- Make a program that reads an employee's salary and shows his new salary with a 15% increase.
 salary = float(input('Enter your salary in R$:'))
 print('Calculating you new salary with a 15% increase...')
 increase = salary + (salary * 0.15)
