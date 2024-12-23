@@ -1,4 +1,4 @@
-# Write a program that reads a sentence from the keyboard and shows how many times the letter "a" appears and in what position it is
+#26- Write a program that reads a sentence from the keyboard and shows how many times the letter "a" appears and in what position it is
 # appears the first time and in what position it appears last time.
 sentence = input('Enter a sentence:').upper()
 print(f'The letter A shows {sentence.count('A')} times.')
