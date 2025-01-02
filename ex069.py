@@ -3,3 +3,4 @@
 #A) how many people are over 18 years old.
 #B) how many men were registered.
 #C) how many women are under 20 years old.
+
