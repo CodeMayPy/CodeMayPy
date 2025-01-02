@@ -1,3 +1,3 @@
-#Create a program that simulates the operation of an ATM. At the beginning, ask the user how much money will be
-# withdrawn (integer) and the program will inform how many bills of each value will be delivered. NOTE:
-#Consider that the ATM has bills of U$50, U$20, U$10 and U$1.
+# 071: Crie um programa que simule o funcionamento de um caixa eletrônico. No início, pergunte ao usuário qual
+# será o valor a ser sacado (número inteiro) e o programa vai informar quantas cédulas de cada valor serão entregues.
+# OBS: considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1
