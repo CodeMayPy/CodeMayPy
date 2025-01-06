@@ -8,6 +8,3 @@ for p in frutas:
     for letra in p:
         if letra.lower() in "aeiou":
             print(letra, end=' ')
-
-
-            
