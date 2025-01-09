@@ -7,3 +7,12 @@ cosine = math.cos(math.radians(angle))
 print('The value of cosine is {:.2f}'.format(cosine))
 tangent = math.tan(math.radians(angle))
 print('The value of tangent is {:.2f}'.format(tangent))
+
+
+#18: Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
+'''import math
+angulo = float(input('Digite o valor de um ângulo qualquer:'))
+print(f'Se o ângulo é {angulo}º, seu seno é {math.sin(math.radians(angulo)):.2f}, seu cosseno é {math.cos(math.radians(angulo)):.2f} e sua tangente é {math.tan(math.radians(angulo)):.2f}.')'''
+
+#PT- Treinando o uso de modulos, no caso math.
+#EN- Training the use of modules, in this case math
