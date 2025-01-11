@@ -9,3 +9,15 @@ print(f'Your unit is {unit}.')
 print(f'Your ten is {ten}.')
 print(f'Your hundred is {hundred}.')
 print(f'Your thousand is {thousand}.')
+
+
+# 023: Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
+'''numero = int(input('Digite um número qualquer:'))
+print(f'Analizando o numero {numero}....')
+print(f'Sua unidade é {numero // 1 % 10}, '
+      f'sua dezena é {numero // 10 % 10},'
+      f'sua centena é {numero // 100 % 10},'
+      f'e seu milhar é {numero // 1000 % 10}')'''
+
+#PT- treinando a manipulação de strings.
+#EN- training string manipulation.
