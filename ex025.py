@@ -8,3 +8,5 @@ print(F'Your name has Silva? {'silva' in name.lower()}.')
 '''nome = str(input('Qual é o seu nome completo?'))
 print(f'No seu nome tem Silva? {'silva' in name.lower()}')'''
 
+#PT- treinando a manipulação de strings.
+#EN- training string manipulation.
