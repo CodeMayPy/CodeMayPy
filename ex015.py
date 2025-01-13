@@ -1,3 +1,4 @@
+#Car Rental.
 #15- Write a program that asks the number of km traveled by a rented car and the number of days for which
 # it was rented. Calculate the price to pay, knowing that the car costs R$60 per day and R$0.15 per km driven.
 '''km = int(input(' Enter how many Km you have driven the car:'))
@@ -7,6 +8,7 @@ value_km = km * 0.15
 print('If you stayed {} days with the carand it ran {}Km with him, then you must pay R${}.'.format(day, km, (value_day +value_km)))'''
 
 
+# Aluguel de Carros.
 #15: Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos
 # quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
 km = float(input('Quantos Km você rodou com o carro?'))
