@@ -1,3 +1,4 @@
+#Sorting an order in the list
 #20- The same teacher from challenge 19 wants to draw the order in which the students' work will be presented. Make a program that
 # read the names of the four students and show the order drawn.
 '''import random
@@ -11,6 +12,7 @@ print('The order of presentation of students will be:')
 print(list)'''
 
 
+#Sorteando uma ordem na lista
 #20: O mesmo professor do desafio 19 quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa
 #que leia o nome dos quatro alunos e mostre a ordem sorteada.
 import random
