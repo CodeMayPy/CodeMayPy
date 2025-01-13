@@ -1,3 +1,4 @@
+#Text Analyzer
 #22- Create a program that reads a person's full name and displays:
 # - The name in all upper and lower case letters.
 # - How many letters in total without considering spaces
@@ -10,6 +11,7 @@ print(f'Your name in total has {len(name)-name.count(' ')} letters.')
 separate = name.split()
 print(f'Your first name is {separate[0]} and he has {len(separate[0])} letters.')
 
+#Analisador de Textos
 # 022: Crie um programa que leia o nome completo de uma pessoa e mostre:
 # O nome com todas as letras maiúsculas e minúsculas.
 # Quantas letras ao todo (sem considerar espaços).
