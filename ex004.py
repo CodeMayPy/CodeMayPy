@@ -1,5 +1,6 @@
+#Dissecting a variable.
 #04- Write a program that reads something from the keyboard and shows its primitive type and all the
-# possible information about him.
+#possible information about him.
 '''value = input('Type something:')
 print('The primitive type of this value is:', type(value))
 print('Is alphabetical?', value.isalpha())
@@ -10,7 +11,8 @@ print('Is upper?', value.isupper())
 print('is lower?', value.islower())
 print('Only the first letter is capitalized?', value.istitle())'''
 
-# Escreva um programa que leia algo pelo teclado e mostre seu tipo primitivo e todas as informações possíveis sobre ele.
+#Dissecando uma variável.
+#Escreva um programa que leia algo pelo teclado e mostre seu tipo primitivo e todas as informações possíveis sobre ele.
 valor = input('Digite algo para eu analisar:')
 print('O tipo primitivo desse dado é:', type(valor))
 print('É alfabetico? ' ,valor.isalpha())
