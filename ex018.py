@@ -1,3 +1,4 @@
+#Sine, Cosine and Tangent
 #18- Write a program that reads any angle and displays on the screen the value of the sine, cosine and tangent of that angle.
 import math
 angle = float(input('Enter a value of an angle:'))
@@ -9,6 +10,7 @@ tangent = math.tan(math.radians(angle))
 print('The value of tangent is {:.2f}'.format(tangent))
 
 
+#Seno, Cosseno e Tangente
 #18: Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
 '''import math
 angulo = float(input('Digite o valor de um ângulo qualquer:'))
