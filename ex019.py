@@ -1,3 +1,4 @@
+#Drawing an item from the list
 #19- A teacher wants to draw one of his four students to erase the board. Make a program that helps him, reading the
 # name of the students and writing the name of the chosen one on the screen.
 import random
@@ -10,6 +11,7 @@ chosen = random.choice(list)
 print(f'The student chosen to erase the board is {chosen}.')
 
 
+#Sorteando um item na lista
 #19: Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o
 #nome dos alunos e escrevendo na tela o nome do escolhido.
 '''import random
