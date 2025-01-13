@@ -1,3 +1,4 @@
+#Separating digits from a number
 #23- Write a program that reads a number from 0 to 9999 and displays each of the separate digits on the screen.
 number = int(input('Informe um número:'))
 unit = number // 1 % 10
@@ -11,6 +12,7 @@ print(f'Your hundred is {hundred}.')
 print(f'Your thousand is {thousand}.')
 
 
+#Separando dígitos de um número
 # 023: Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
 '''numero = int(input('Digite um número qualquer:'))
 print(f'Analizando o numero {numero}....')
