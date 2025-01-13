@@ -1,3 +1,4 @@
+#multiplication table.
 #09- Write a program that reads any integer and displays its multiplication table on the screen.
 number = int(input('Enter a value:'))
 print('-=' * 20)
@@ -15,6 +16,7 @@ print('{} x 8 = {}.'.format(number, number*8))
 print('{} x 9 = {}.'.format(number, number*9))
 print('{} x 10 = {}.'.format(number, number*10))
 
+#tabuada.
 #9: Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
 '''numero = int(input('Digite um número inteiro e eu lhe mostrarei sua tabuada:'))
 print(f'A tabuada do número {numero}:')
