@@ -1,3 +1,4 @@
+#EN- Loop structure: While
 # 65- Create a program that reads several integers from the keyboard. At the end of the execution, show the average of
 # all the values and which were the highest and lowest values read. The program should ask the user whether or not he
 # wants to continue entering values.

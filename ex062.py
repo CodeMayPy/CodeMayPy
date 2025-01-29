@@ -1,3 +1,5 @@
+#EN- Loop structure: While
+#Super Arithmetic Progression v3.0
 #62- Improve challenge 61 by asking the user if he wants to show some more terms. The program will exit when he says he
 # wants to show 0 terms.
 print("Arithmetic progression generator")
@@ -16,3 +18,9 @@ while more != 0:
         counter += 1
     print("Pause")
     more = int(input("How many more terms do you want to show?"))
+
+
+#PT- Estrutura de repetição: While
+#Super Progressão Aritmética v3.0
+#62: Melhore o DESAFIO 61, perguntando para o usuário se ele quer mostrar mais alguns termos. O programa encerrará
+# quando ele disser que quer mostrar 0 termos.
